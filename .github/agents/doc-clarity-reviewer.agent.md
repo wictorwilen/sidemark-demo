@@ -6,12 +6,8 @@
 
 name: Doc Clarity Reviewer
 description: Reviews a document for clarity and leaves actionable, non-duplicative inline comments; tracks file hash to detect changes.
-tools:
-  - read
-  - search
-  - todo
-mcp_servers:
-  - sidemark
+tools: ["read", "search", "todo"]
+mcp_servers: ["sidemark"]
 ---
 
 
